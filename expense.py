@@ -38,11 +38,11 @@ def Delete_Expense():
         index=int(input("enter the expense number to delete"))-1
         if 0<=index<len(list1) :
             removed_ex=list1.pop(index)
-            print(f"deleted task:{ removed_ex}")
+            print(f"the deleted task is:{ removed_ex}")
         else:
             print("invalid number")   
     except ValueError:
-        print("enter real number")
+        print("enter the accurate number")
         
 while True:
         main_menu()
